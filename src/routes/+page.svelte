@@ -11,7 +11,7 @@
     </p>
 </div>
 <div class="container mt-5">
-    <form>
+    <form method="POST">
         <div class="input-group mb-3">
             <input
                 type="email"
