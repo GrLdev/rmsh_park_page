@@ -10,7 +10,8 @@
         Perfect Home!
     </p>
 </div>
-<div class="container mt-5">
+<iframe src="https://cdn.forms-content.sg-form.com/a2115978-fa7b-11ed-92ba-3a0fd8be7bf7" title="Waitlist Sign-up" width="100%" height="400px"/>
+<!-- <div class="container mt-5">
     <form method="POST">
         <div class="input-group mb-3">
             <input
@@ -24,5 +25,5 @@
             <button class="btn btn-primary" type="submit">Subscribe</button>
         </div>
     </form>
-</div>
+</div> -->
 
