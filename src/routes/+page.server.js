@@ -1,5 +1,5 @@
 
-import { sendEmail } from './emailSender.js';
+import { addContact } from './contactSender.js';
 
 
 export const actions = {
@@ -8,7 +8,7 @@ export const actions = {
         const email = data.get('email');
         console.log(email + ' - email retrieved via POST');
         if (email != null) {
-            await sendEmail(email.toString());
+            await addContact(email.toString());
         }
     },
 };  
