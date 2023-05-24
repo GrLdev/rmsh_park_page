@@ -9,7 +9,7 @@ sgMail.setApiKey(SENDGRID_API_KEY);
 export async function sendEmail(email) {
     const msg = {
       to: email?.toString(),
-      from: 'info@ratemystudenthome.com',
+      from: 'toby@ratemystudenthome.com',
       subject: 'Test Subject',
       text: 'Test Text',
       html: '<strong>test html</strong>',
